@@ -5,5 +5,8 @@
  */
 
 if(true){
-    
+    const nombre = 'jorge';
+    console.log(nombre);   
 }
+
+console.log('nombre');
