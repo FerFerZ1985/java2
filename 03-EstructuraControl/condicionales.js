@@ -18,16 +18,20 @@
 // }
 
 // EJEMPLO 2
-const edad = 17;
-const acceso = true;
+const edad = 18
+const acceso = false;
 
 
 const comprobacion = edad >= 18 && acceso
                                 ? 'Puede acceder'
                                 : 'No puede acceder';
 
-if (edad >= 18 && acceso){
-    console.log('Puede acceder');
+if (edad >= 18){
+    if(acceso){
+        console.log('Puede Acceder');
+    }else{
+        console.log('No puede acceder');
+    }
 }else{
-    console.log('No puede acceder');
+    console.log('No puede acceder, es menor de edad');
 }
