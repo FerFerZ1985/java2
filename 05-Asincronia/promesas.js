@@ -12,13 +12,13 @@
 
 // });
 
-//  promesa.then((mensaje) => {
-//     console.log(mensaje);
-//  });    
+ promesa.then((mensaje) => {
+    console.log(mensaje);
+ });    
 
-//  promesa.catch((error) => {
-//     console.log(error);
-//  })
+ promesa.catch((error) => {
+    console.log(error);
+ })
 
 /**
         *EJERCICIO: Crear una funcion que teome una promesa
