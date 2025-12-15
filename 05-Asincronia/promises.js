@@ -1,3 +1,4 @@
+
 //Promesas - Estrcutura que le indica al navegador que espere a q termine una tarea. Al finalizarla responde con los datos
 
 
