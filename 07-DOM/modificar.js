@@ -4,5 +4,9 @@ const box = document.querySelector('.box');
 // box.innerHTML = 'Hola mundo';
 
 // attribute: Permite acceder y cambiar atributos
-box.id = 'nuevo-id';
+// box.id = 'nuevo-id';
+// box.className = 'nuevo-class';
 
+// setAttribute(): Permite agregar o establecer el valor de un atributo
+box.setAttribute('class', 'box active mi-clase');
+box.setAttribute('data-id', '123-456-789');
