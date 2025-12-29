@@ -13,4 +13,9 @@ const box = document.querySelector('.box');
 
 // .style.propiedad: permite cambiar los estilos CSS de un elemento
 
-box.computedStyleMap.background = '#000'
+// box.style.background = '#000';
+// box.style.color  = '#fff';
+// box.style.fontSize = '30px';
+
+// Classlist - Accede a la lista de clasese de un elemento
+// console.log(box.classList)
