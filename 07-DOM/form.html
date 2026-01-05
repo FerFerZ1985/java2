@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formularios en Javascript</title>
+
+    <!-- Aplicar archivo que corresponda -->
+    <script defer src="formValidacion.js"></script>
+</head>
+<body>
+    
+    <!-- Formulario -->
+    <form action="" id="form-registro">
+        <label for="username">Nombre de usuario</label>
+        <input type="text" name="username" id="username">
+                
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+
+        <label for="pais">Seleccione un pais</label>
+        <select name="pais" id="pais">
+            <option value=""></option>
+            <option value="ven">Venezuela</option>
+            <option value="arg">Argentina</option>
+            <option value="col">Colombia</option>
+            <option value="mex">México</option>
+            <option value="esp">España</option>
+        </select>
+
+        <label for="terminos-condiciones">
+			<input type="checkbox" id="terminos-condiciones" name="terminos-condiciones"/>
+			Aceptar terminos y condiciones
+		</label>
+            
+        <button id="btn-enviar">Enviar</button>
+    </form>
+</body>
+</html>

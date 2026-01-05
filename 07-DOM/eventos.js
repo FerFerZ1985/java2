@@ -1,20 +1,23 @@
-// utilizar eventos en linea HTMOL
 
-// const funcionClick = () => {
-//     console.log('Hiciste Click');
-// }
+//? Utilizar eventos en linea HTML
+const funcionClick = () =>{
+    console.log('Hiciste click en el boton')
+}
 
-// Utilizar addEventListener
-// const btn = document.getElementById('btn');
 
-// btn.addEventListener('click', (e) => {
-//     console.log(e.target);
-// })
+//? Utilizar addEventListener
+const btn = document.getElementById('btn');
 
+btn.addEventListener('click', (e) =>{
+    console.log(e.target);
+})
+
+
+// Multiples Elementos
 const boxs = document.querySelectorAll('.box');
 
-boxs.forEach((box) => {
-    box.addEventListener('Click', () => {
-        console.log('Hicsite Clcik en una caja');
+boxs.forEach((box) =>{
+    box.addEventListener('click', (e) =>{
+        console.log('Le diste click al elemento: ', e.target.innerHTML);
     });
 })
