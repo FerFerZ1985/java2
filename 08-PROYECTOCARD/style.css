@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: #eee;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-principal{
+    width: 100%;
+    max-width: 1440px;
+    padding: 40px;
+}
+
+/*Contenedor de filtros*/
+.contenedor-filtros{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 40px;
+} 
+
+/*Input*/
+.contenedor-input{
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    height: 40px;
+}
+
+.contenedor-input input {
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 0 45px;
+    background-color: #323334;
+    border-radius: 6px;
+    color: #fff;
+}
+
+.contenedor-input i{
+    position: absolute;
+    z-index: 2;
+    color: #999;
+    top: 50%;
+    left: 15px;
+    font-size: 20px;
+    transform: translateY(-50%);
+}
+
+/*Botones*/
+
+.contenedor-botones{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.contenedor-botones button{
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    height: 30px;
+    background: #323334;
+    border: none;
+    color: #999;
+    outline: none;
+    padding: 10px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 2s;
+}
+
+.contenedor-botones button:hover{
+    color: #fff;
+}
+
+/*Cards*/
+
+.contenedor-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    grid-auto-rows: 300px;
+    gap: 10px;
+}
+
+.card{
+    position: relative;
+    background: #fff;
+    width: 100%;
+    height: 100%;  
+    border-radius: 6px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.card::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, transparent, #000);
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card h6{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.contenedor-botones button.active{
+    color: #fff;
+    background: #C73659;
+}
