@@ -81,7 +81,7 @@ body{
     font-weight: 600;
     text-transform: uppercase;
     cursor: pointer;
-    transition: 2s;
+    transition: 0.5s;
 }
 
 .contenedor-botones button:hover{
@@ -135,4 +135,8 @@ body{
 .contenedor-botones button.active{
     color: #fff;
     background: #C73659;
+}
+
+.contenedor-cards .card.hide{
+    display: none;
 }
