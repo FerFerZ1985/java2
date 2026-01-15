@@ -80,7 +80,7 @@ const abrirModal = (e) => {
     if(e.target.className === 'card'){
         const imgUrl = e.target.children[0].src;
         modal.style.display = 'block';
-        imgModal.src - imgUrl;
+        imgModal.src = imgUrl;
     }
 }
 
@@ -92,6 +92,6 @@ const cerrarModal = () => {
 //EVENTOS
 botones.forEach(button => button.addEventListener('click', aplicarFiltros));
 input.addEventListener('keyup', aplicarFiltros);
-contenedorCards.addEventListener('clcik', abrirModal);
+contenedorCards.addEventListener('click', abrirModal);
 closeBtn.addEventListener('click', cerrarModal);
 
