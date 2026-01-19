@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intersection Observer</title>
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+        
+        body{
+            display: flex;
+            justify-content: center;
+            font-family: 'Poppins', sans-serif;
+            background: #ddd;
+        }
+
+        .contenedor{
+            width: 80%;
+            background: #fff;
+            padding: 40px;
+        }
+
+        img{
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+
+        h1{
+            text-align: center;
+            font-size: 50px;
+            font-weight: 400;
+        }
+
+        p{
+            font-size: 20px;
+            margin: 40px 0;
+            text-align: justify;
+        }
+
+
+
+    </style>
+
+    <script defer src="intersectionObserver.js"></script>
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Intersection Observer</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus iste consequatur culpa autem molestias. Exercitationem, accusamus! Laboriosam molestiae cumque, qui nobis impedit saepe ad accusamus nesciunt enim, cupiditate, perspiciatis quia.
+        Voluptas, saepe? Nihil, esse doloribus placeat officiis rem eos. Eos praesentium odit vel quisquam corporis explicabo accusantium nulla ipsa, ipsam itaque ullam? Enim architecto voluptates nisi dicta quam obcaecati voluptas?
+        Omnis, quas? Asperiores cumque quidem omnis ducimus nihil, cum quisquam dolore at vitae earum saepe commodi corrupti repudiandae excepturi sequi est ipsa, minus sunt laboriosam? Eos molestiae dolore saepe laborum?</p>
+    
+        <img data-src="img/image1.jpg" alt="">
+    
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur dicta praesentium ullam aliquam. Repudiandae, veniam pariatur assumenda quod possimus hic dicta iusto soluta recusandae harum reiciendis nulla sed temporibus quis.
+        Facere sed dolor aperiam exercitationem atque a voluptatem asperiores fugit. Omnis soluta, reprehenderit facere cumque facilis hic vel eum exercitationem impedit voluptate tenetur itaque repellendus aliquid qui tempora vitae ipsa.
+        Recusandae, ut. Voluptatem eligendi praesentium error dolore natus similique explicabo. Rem omnis eius deserunt dolor reiciendis eveniet repudiandae ea eos earum possimus eligendi similique, minima tenetur perferendis quis id veniam!
+        Quo assumenda voluptas nam id dolorum! Quidem labore architecto iusto inventore consequuntur, eligendi earum dicta impedit similique nemo quaerat quisquam id fugit minima praesentium, alias pariatur. Hic quos incidunt consequuntur.
+        Sapiente quod quasi aspernatur corrupti voluptates officia rerum autem, explicabo aliquam nemo architecto nesciunt eos, praesentium quisquam error laborum iusto fugiat voluptate. Earum iusto delectus saepe deserunt consectetur, nostrum rem.</p>
+    
+        <img data-src="img/image2.jpg" alt="">
+    
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore ab, deleniti expedita quas, doloribus necessitatibus ipsum molestias, modi obcaecati praesentium vel corporis cum odit! Pariatur quaerat illum voluptas omnis quos.
+        Illo odit et labore ratione in saepe! Odio, saepe ipsam, placeat velit provident numquam asperiores doloremque, aliquam optio reiciendis similique ipsa. Laudantium, tenetur vero! Expedita in facere laboriosam excepturi velit!
+        Eaque nulla praesentium suscipit vel consequuntur consequatur a minus laborum debitis repellat, est odit sequi nobis perferendis recusandae hic ea maiores maxime? Possimus, placeat. Voluptates ea ad dolorum nobis ipsum.
+        Ratione accusantium perspiciatis fuga quos recusandae voluptate repudiandae autem soluta, atque debitis sed explicabo! Totam accusantium enim consequuntur quisquam beatae ipsa neque numquam, voluptate natus tempore aliquid repellat modi quam.
+        Magni deserunt magnam voluptatum cum quae iste, fugit, ipsam facilis alias quisquam earum corrupti, assumenda libero. Enim, illo. Optio dolorum nihil repudiandae expedita eaque itaque magni rerum facere delectus rem.</p>
+        
+        <img data-src="img/image3.jpg" alt="">
+    
+    
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum porro maxime sint. Assumenda, beatae maiores aperiam, enim architecto velit quo eaque distinctio possimus iusto ab, at sit non rem! Rerum.
+        Unde impedit vero atque repellendus ad ipsum non doloremque nisi! Dicta illum eos tempore, recusandae, placeat sint nesciunt aut veniam earum minima numquam quia obcaecati quibusdam id distinctio maxime. Mollitia?
+        Fugit dolorem unde mollitia quidem numquam consectetur sit similique quasi dicta. In placeat explicabo, quae dolorem sequi ex autem alias inventore officia ducimus pariatur suscipit harum odit praesentium optio. Saepe!
+        Fugiat quas magnam provident vel unde repellendus accusantium pariatur facilis consequatur natus, fugit possimus sapiente qui corporis aperiam eaque. Consequuntur necessitatibus corporis voluptatem ex dignissimos. Autem laudantium aspernatur ducimus vero.
+        Earum quia corporis voluptatibus fuga officiis laboriosam doloribus provident nam tempore voluptate sapiente itaque inventore exercitationem excepturi maxime dolorum, ipsum reprehenderit quaerat ipsam aperiam, iste eius est? Explicabo, dignissimos. Porro.</p>
+    
+        <img data-src="img/image4.jpg" alt="">
+    </div>
+</body>
+</html>
